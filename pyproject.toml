@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "run-flask-telegram"
+version = "0.1.0"
+description = ""
+authors = ["Zhanat <janat.200066@gmail.com>"]
+readme = "README.md"
+packages = [{include = "run_flask_telegram"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.0"
+pytelegrambotapi = "^4.14.0"
+pydantic-settings = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
